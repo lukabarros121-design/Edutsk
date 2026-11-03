@@ -119,4 +119,31 @@ function App() {
   )
 }
 
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Home from './pages/Home';
+import Sobre from './pages/Sobre';
+import Coleta from './pages/Coleta';
+import Agendamento from './pages/Agendamento';
+import Contato from './pages/Contato';
+
+function App() {
+  return (
+    <BrowserRouter>
+      <Header />
+      <main style={{ minHeight: '80vh', padding: '20px' }}>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/sobre" element={<Sobre />} />
+          <Route path="/coleta" element={<Coleta />} />
+          <Route path="/agendamento" element={<Agendamento />} />
+          <Route path="/contato" element={<Contato />} />
+        </Routes>
+      </main>
+      <Footer />
+    </BrowserRouter>
+  );
+}
+
 export default App
