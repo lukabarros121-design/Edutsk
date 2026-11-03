@@ -1,16 +1,30 @@
-# React + Vite
+# 🌿 EcoDescarte - Plataforma de Coleta Seletiva
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## ❓ Problema
+Dificuldade da população em encontrar pontos adequados de descarte de resíduos recicláveis e eletrônicos, além da falta de um canal simples de agendamento de coletas.
 
-Currently, two official plugins are available:
+## 🎯 Objetivo
+Proporcionar uma interface web intuitiva para localização de pontos de coleta e agendamento de recolhimento de materiais recicláveis.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Funcionalidades
+- Navegação completa entre 5 seções informativas e de serviço.
+- Agendamento de recolhimento de resíduos.
+- Localização de pontos de coleta parceiros.
+- Formulário de contato e dúvidas frequentes.
 
-## React Compiler
+## 🛠️ Tecnologias Utilizadas
+- React.js
+- Vite
+- React Router DOM
+- CSS3 / HTML5
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 👥 Integrantes do Grupo
+- Luka Gabriel Sales Barros - Matrícula: 01816224
+- Yuri Miguel Pereira Cordeiro - Matrícula: 01800619
+- Marcús Vinícius Loiola - Matrícula: 01831468
 
-## Expanding the Oxlint configuration
+## ▶️ Como Executar o Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+1. Clone o repositório:
+```bash
+git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
