@@ -5,3 +5,10 @@ export default function Footer() {
     </footer>
   );
 }
+export default function Footer() {
+  return (
+    <footer className="footer">
+      <p>&copy; 2026 EcoDescarte — Projeto de Ciência da Computação</p>
+    </footer>
+  );
+}
