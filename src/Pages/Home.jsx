@@ -13,3 +13,27 @@ export default function Home() {
     </div>
   );
 }
+
+import { Link } from 'react-router-dom';
+
+export default function Home({ usuarioLogado }) {
+  return (
+    <div className="hero-container">
+      <h1>Gestão Inteligente de Coleta Seletiva</h1>
+      <p>
+        Conectamos cidadãos a pontos de descarte sustentável de eletrônicos, 
+        plásticos e recicláveis de forma rápida e rastreável.
+      </p>
+      <div className="hero-buttons">
+        {usuarioLogado ? (
+          <Link to="/restrita" className="btn-primary">Acessar Meu Painel</Link>
+        ) : (
+          <>
+            <Link to="/cadastro" className="btn-primary">Começar Agora</Link>
+            <Link to="/login" className="btn-secondary">Já tenho conta</Link>
+          </>
+        )}
+      </div>
+    </div>
+  );
+}
