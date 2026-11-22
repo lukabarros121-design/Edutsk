@@ -8,10 +8,10 @@ import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import RecuperarSenha from './pages/RecuperarSenha';
 import AreaRestrita from './pages/AreaRestrita';
+import Coleta from './pages/Coleta';
 import './App.css';
 
 export default function App() {
-  // Usuário padrão já cadastrado para facilitar a apresentação ao professor
   const [usuarios, setUsuarios] = useState([
     { nome: 'Luka Gabriel', email: 'admin@ecodescarte.com', senha: '123456' }
   ]);
@@ -25,15 +25,14 @@ export default function App() {
     <BrowserRouter>
       <div className="app-wrapper">
         <Header usuarioLogado={usuarioLogado} onLogout={() => setUsuarioLogado(null)} />
-        
+
         <main className="main-content">
           <Routes>
             <Route path="/" element={<Home usuarioLogado={usuarioLogado} />} />
+            <Route path="/coleta" element={<Coleta />} />
             <Route path="/login" element={<Login usuariosCadastrados={usuarios} onLogin={setUsuarioLogado} />} />
             <Route path="/cadastro" element={<Cadastro onCadastrar={handleCadastrar} />} />
             <Route path="/recuperar-senha" element={<RecuperarSenha />} />
-            
-            {/* Rota Protegida */}
             <Route
               path="/restrita"
               element={
