@@ -1,16 +1,44 @@
-# React + Vite
+## 🌿 EcoDescarte - Plataforma de Coleta Seletiva
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## ❓ Problema
+Dificuldade da população em encontrar pontos adequados de descarte de resíduos recicláveis e eletrônicos, além da falta de um canal simples de agendamento de coletas.
 
-Currently, two official plugins are available:
+## ♻️**Quem pode utilizar a plataforma?**
+A plataforma é destinada a qualquer pessoa interessada em contribuir com a preservação ambiental, incluindo moradores, estudantes, famílias e pessoas que desejam encontrar maneiras mais responsáveis de descartar seus resíduos.
+## 🌳**Como ele contribui para o meio ambiente?**
+O EcoDescarte incentiva hábitos sustentáveis, promove a conscientização ambiental e facilita o encaminhamento adequado de resíduos. Dessa forma, busca reduzir a poluição, evitar o descarte irregular e estimular a reciclagem e o reaproveitamento de materiais.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🎯 Objetivo
+Proporcionar uma interface web intuitiva para localização de pontos de coleta e agendamento de recolhimento de materiais recicláveis.
 
-## React Compiler
+## 🚀 Funcionalidades
+- Navegação completa entre 5 seções informativas e de serviço.
+- Agendamento de recolhimento de resíduos.
+- Localização de pontos de coleta parceiros.
+- Formulário de contato e dúvidas frequentes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
+- React.js
+- Vite
+- React Router DOM
+- CSS3 / HTML5
 
-## Expanding the Oxlint configuration
+## 👥 Integrantes do Grupo
+- Luka Gabriel Sales Barros - Matrícula: 01816224
+- Yuri Miguel Pereira Cordeiro - Matrícula: 01800619
+- Marcús Vinícius Loiola - Matrícula: 01831468
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ▶️ Como Executar o Projeto
+
+1. Clone o repositório:
+```bash
+git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+
+2. Entrar na pasta
+cd Edutsk
+
+3. Instalar dependências
+npm install
+
+4. Iniciar o projeto
+npm run dev
